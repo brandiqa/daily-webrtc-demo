@@ -1,0 +1,21 @@
+{
+  "name": "daily-webrtc-demo",
+  "private": true,
+  "description": "Daily.co WebRTC demonstration",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
+  },
+  "dependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-refresh": "^1.1.0",
+    "prettier": "^2.2.1",
+    "vite": "^2.0.0-beta.7"
+  }
+}
