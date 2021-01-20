@@ -1,14 +1,28 @@
 import React from "react"
-import Header from "./components/Header"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+
+import Nav from "./components/Nav"
+
+import Home from "./views/Home"
+import About from "./views/About"
+import NotFound from "./views/NotFound"
 
 function App() {
   return (
-    <div>
-      <Header />
-      <div className="container mx-auto">
-        <p>Page Content</p>
-      </div>
-    </div>
+    <Router>
+      <Nav />
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route>
+          <NotFound />
+        </Route>
+      </Switch>
+    </Router>
   )
 }
 
