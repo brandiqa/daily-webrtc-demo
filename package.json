@@ -10,12 +10,13 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
   },
   "dependencies": {
-   "react": "^17.0.1",
-   "react-dom": "^17.0.1",
-   "react-router-dom": "^5.2.0"
+    "@daily-co/daily-js": "^0.9.998",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
-   "@vitejs/plugin-react-refresh": "^1.1.1",
+    "@vitejs/plugin-react-refresh": "^1.1.1",
     "autoprefixer": "^10.2.1",
     "postcss": "^8.2.4",
     "prettier": "^2.2.1",

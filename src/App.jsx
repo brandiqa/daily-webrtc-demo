@@ -5,6 +5,7 @@ import Nav from "./components/Nav"
 
 import Home from "./views/Home"
 import About from "./views/About"
+import Chat from "./views/Chat"
 import NotFound from "./views/NotFound"
 
 function App() {
@@ -17,6 +18,9 @@ function App() {
         </Route>
         <Route path="/about">
           <About />
+        </Route>
+        <Route path="/chat">
+          <Chat />
         </Route>
         <Route>
           <NotFound />
